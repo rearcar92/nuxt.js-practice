@@ -1,10 +1,4 @@
 # nuxt.js-practice
 
 
-vue init nuxt-community/starter-template <project-name>
-
-cd <projet-name>
-
-npm install
-
-npm run dev
+nuxt.js에 대해서 알아보기
