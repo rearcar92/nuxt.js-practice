@@ -1,8 +1,21 @@
 <template>
   <div>
+    <main-header></main-header>
     <nuxt/>
+    <main-footer></main-footer>
   </div>
 </template>
+
+<script>
+import mainHeader from '../pages/mainHeader.vue';
+import mainFooter from '../pages/mainFooter.vue';
+export default {
+  components: {
+    mainHeader,
+    mainFooter
+  }
+}
+</script>
 
 <style>
 html {
@@ -19,6 +32,8 @@ html {
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .button--green {
